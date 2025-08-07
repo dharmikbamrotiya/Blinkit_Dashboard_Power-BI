@@ -31,6 +31,19 @@ Tools Used:
 - Power Query
 - DAX
 
+🧩 CSV File and  Data Relationships (Joins)
+order_details=orders + order_items → by order_id
+
+delivery_performance
+
+marketing_performance
+
+inventoryNew
+
+product_data=products + inventory → by product_id
+
+customer_details=customers + customer_feedback → by customer_id
+
 How to Use:
 1. Open project1.pbix in Power BI Desktop.
 2. Connect to data if needed and refresh.
